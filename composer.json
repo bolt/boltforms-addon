@@ -1,0 +1,28 @@
+{
+    "name": "bolt/boltforms-addon",
+    "description": "",
+    "type": "bolt-extension",
+    "keywords": [
+    ],
+    "require": {
+        "bolt/bolt": "^3.0",
+        "bolt/boltforms": "^3.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gawain Lynch",
+            "email": "gawain@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Bolt\\Extension\\Bolt\\BoltFormsAddon\\": "src"
+        }
+    },
+    "extra": {
+        "bolt-class": "Bolt\\Extension\\Bolt\\BoltFormsAddon\\BoltFormsAddonExtension"
+    }
+}
